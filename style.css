@@ -1,0 +1,135 @@
+*{font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 
+    sans-serif;}
+
+body {background-color: #5299d3;
+    background-image: linear-gradient(#5299d3, #ca8702);
+}
+
+.navbar {
+    display: flex;
+    background-color: #fbfbf2;
+    padding: 0%;
+    justify-content: space-evenly;
+    font-size: 40px;
+    color: #343434;
+}
+
+.navbar a{
+    display: flex;
+    text-decoration: none;
+    color: #343434;
+}
+
+.navbar2 {background-color: #fbfbf2;
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 40px;
+}
+
+.navbar2 a{
+    text-decoration: none;
+    color: #343434;
+    border-width: 3px solid #343434;
+}
+
+h1 {
+    color: #fbfbf2;
+    font-family: cursive;
+    font-size: 60px;
+}
+
+h2 {
+    color: #fbfbf2;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 50px;
+}
+p {
+    color: #fbfbf2;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.image1 {
+    display: flex;
+    justify-content: center;
+}
+
+.agency {
+    width: 50%;
+}
+
+.athas {
+    display: flex;
+    justify-content: center;
+}
+
+.greece {
+    display: flex;
+    justify-content: center;
+}
+
+.greecepics {
+    display: flex;
+justify-content: flex-start;
+height: 300px;
+}
+
+.japanpics {
+    display: flex;
+justify-content: flex-start;
+height: 300px;
+}
+
+img {
+    width: 10px;
+    padding: .5rem;
+    flex: 1 1 auto;
+}
+
+.japan {
+    display: flex;
+    justify-content: center;
+}
+
+.bodytext {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Add this line if you want to center the content vertically as well */
+    flex-direction: column; /* Use this if you have multiple elements inside and want them stacked vertically */
+}
+
+.bodytext p {
+    text-align: center; /* Ensure the text within the paragraph is centered */
+    color: #fbfbf2;
+    font-size: 28px;
+}
+
+.greecetext {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Add this line if you want to center the content vertically as well */
+    flex-direction: column; /* Use this if you have multiple elements inside and want them stacked vertically */
+}
+
+.greecetext p {
+    text-align: center; /* Ensure the text within the paragraph is centered */
+    color: #fbfbf2;
+    font-size: 28px;
+}
+
+.japantext {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Add this line if you want to center the content vertically as well */
+    flex-direction: column; /* Use this if you have multiple elements inside and want them stacked vertically */
+}
+
+.japantext p {
+    text-align: center; /* Ensure the text within the paragraph is centered */
+    color: #fbfbf2;
+    font-size: 28px;
+}
